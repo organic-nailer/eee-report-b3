@@ -11,7 +11,7 @@
         "${fileBasename}",
         "--filter=pandoc-crossref",
         "--metadata=crossrefYaml:${workspaceFolder}/template/pandoc-crossref.yaml",
-        "--filter=pandoc-citeproc",
+        "--citeproc",
         "--pdf-engine=lualatex",
         "--number-sections",
         "--template=${workspaceFolder}/template/template.tex",
