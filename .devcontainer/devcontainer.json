@@ -16,7 +16,7 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dougfinke.vscode-pandoc"
+		"goessner.mdmath"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
